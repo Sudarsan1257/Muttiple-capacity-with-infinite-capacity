@@ -1,4 +1,7 @@
 # Multiple server with infinite capacity - (M/M/c):(oo/FIFO)
+
+## NAME: SUDARSAN.A
+## REG.NO :212224220111
 ## Aim :
 To find (a) average number of materials in the system (b) average number of materials in the conveyor (c) waiting time of each material in the system (d) waiting time of each material in the conveyor, if the arrival  of materials follow poisson process with the mean interval time 10 seconds, serivice time of two lathe machine follow exponential distribution with mean serice time 1 second and average service time of robot is 7seconds.
 
@@ -15,15 +18,13 @@ Queuing are the most frequently encountered problems in everyday life. For examp
 ![image](https://user-images.githubusercontent.com/103921593/203238265-176740b0-eae2-4772-90be-5449869ac9b0.png)
 
 
-
-
 ## Experiment:
-![396550294-d7e081c7-6713-4c64-bbed-d6685f6e2d11](https://github.com/user-attachments/assets/317b8317-a26d-4e05-914e-f87f6483e338)
-![396549863-1ccd535d-717d-4fd0-8ac7-54aed261e76d](https://github.com/user-attachments/assets/6d7ca85e-994b-4ded-9895-c350df4a83db)
 
+![image](https://github.com/user-attachments/assets/1f0f4f1e-eaa4-4d6c-8b0a-3dd165924529)
+![image](https://github.com/user-attachments/assets/9db76952-02d4-42fd-b5bf-f8c1619b1ddd)
 
 ## Program
-```
+```python
 import math
 arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs): "))
 ser_time=float(input("Enter the mean  inter service time of Lathe Machine (in secs) :  "))
@@ -56,9 +57,13 @@ else:
     print("Warning! Objects Over flow will happen in the conveyor")
 print("--------------------------------------------------------------")
 
+
 ```
+
 ## Output :
-![396549958-2c7bba9b-4f3f-44e1-bebf-ccaea70c34d8](https://github.com/user-attachments/assets/dbe14703-4b96-404b-a473-7d0bb0d856f5)
+
+![image](https://github.com/user-attachments/assets/d8e18487-d60d-4860-9ce5-b9d25a6ce380)
+
 
 ## Result : 
 Thus the average number of materials in the system and conveyor, waiting time of each material in the system and conveyor is found successfully.
